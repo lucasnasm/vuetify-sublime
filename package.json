@@ -1,0 +1,22 @@
+{
+  "name": "vuetify-sublime",
+  "version": "0.0.1",
+  "description": "Vuetify sublime plugin",
+  "main": "vuetifyjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vuetifyjs/vuetify-sublime.git"
+  },
+  "keywords": [
+    "javascript",
+    "sublime",
+    "text",
+    "snippets"
+  ],
+  "author": "Vuetifyjs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vuetifyjs/vuetify-sublime/issues"
+  },
+  "homepage": "https://github.com/vuetifyjs/vuetify-sublime"
+}

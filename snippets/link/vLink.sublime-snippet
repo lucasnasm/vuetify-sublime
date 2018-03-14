@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<script src='https://unpkg.com/vuetify/dist/vuetify.js'></script>
+]]></content>
+	<tabTrigger>vLink</tabTrigger>
+	<scope>.text.html.vue</scope>
+	<description>Vuetify script link</description>
+</snippet>

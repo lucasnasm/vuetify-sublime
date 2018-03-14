@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+align-baseline$0  
+]]>
+  </content>
+  <tabTrigger>alignBaseline</tabTrigger>
+  <scope>.text.html.vue</scope>
+  <description>align-baseline - Vuetify</description>
+</snippet>

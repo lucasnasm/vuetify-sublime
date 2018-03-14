@@ -1,0 +1,1 @@
+> This are all available snippets for Vuetifyjs in Sublime Text. If you want to add another snippet which is useful for community. Just create an issue and I will know :)
