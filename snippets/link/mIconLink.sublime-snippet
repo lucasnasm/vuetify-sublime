@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
-]]></content>
-	<tabTrigger>mIconLink</tabTrigger>
-	<scope>.text.html.vue</scope>
-	<description>Material Design icons link</description>
-</snippet>
