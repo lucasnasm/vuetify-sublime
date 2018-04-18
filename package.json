@@ -1,6 +1,6 @@
 {
   "name": "vuetify-sublime",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Vuetify sublime plugin",
   "main": "vuetifyjs",
   "repository": {
@@ -8,10 +8,10 @@
     "url": "https://github.com/vuetifyjs/vuetify-sublime.git"
   },
   "keywords": [
-    "javascript",
-    "sublime",
-    "text",
-    "snippets"
+    "vuetifyjs",
+    "vuetify snippets",
+    "vuetify autocomplete",
+    "vuetify package"
   ],
   "author": "Vuetifyjs",
   "license": "MIT",
