@@ -89,7 +89,7 @@
     },
     {
       "trigger": "vContainer\tv-container component - Vuetify",
-      "contents": "<v-container}>\n  $2\n</v-container>$0"
+      "contents": "<v-container>\n  $2\n</v-container>$0"
     },
     {
       "trigger": "vContainerWithProps\tv-container with all props - Vuetify",
