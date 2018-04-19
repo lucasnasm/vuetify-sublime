@@ -18,7 +18,8 @@ For all information about available snippets and autocompletion for Sublime Text
 
 #### Package Control
 
-I like your style. Open your **Command Palette** _(Command + Shift + P)_ and search for **"Vuetify"** to get it from Package Control.
+1. Open your **Command Palette** _(Command + Shift + P)_
+2. Search for **"Vuetify"** to get it from Package Control.
 
 ## Usage
 
