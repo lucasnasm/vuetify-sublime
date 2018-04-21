@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to `vuetify-sublime` will be documented in this file.
 
+## 0.1.2 - 2018-04-21
+### Added
+- `.no-sublime-package` file
+
 ## 0.1.1 - 2018-04-19
 ### Added
 - shows available colors inside `color=""` tag

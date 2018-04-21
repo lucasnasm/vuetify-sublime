@@ -1,6 +1,6 @@
 {
   "scope":
-    "text.html.vue - source - meta.tag, punctuation.definition.tag.begin",
+    "text.html meta.tag - text.html punctuation.definition.tag.begin",
 
   "completions": [
     {
