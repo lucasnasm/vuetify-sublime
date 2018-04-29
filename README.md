@@ -23,11 +23,11 @@ For all information about available snippets and autocompletion for Sublime Text
 
 ## Usage
 
-#### Autocompletion
+### Autocompletion
 
-Typing `<` will provide not with all available components and when you hit tab, the autompletion will work like a snippet.
+Will provide autocomplete for every Vuetify component tag. Ex. typing `<` in `html` or `template` of vue file will provide components list and when you hit `tab`, it will expand just like snippet counteparts.
 
-#### Snippet
+### Snippet
 
 You don't need usage example if you are familiar with concept of snippets or you looked up the documentation. But here is an example:
 
