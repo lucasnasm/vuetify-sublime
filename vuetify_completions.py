@@ -1,6 +1,6 @@
 import sublime_plugin
 import sublime
-from .completions import color_classes
+from .completions import color_classes, components
 
 
 class VuetifyCompletions(sublime_plugin.EventListener):
@@ -15,7 +15,6 @@ class VuetifyCompletions(sublime_plugin.EventListener):
     def on_query_completions(self, view, prefix, locations):
 
         if view.match_selector(locations[0], "text.html string.quoted"):
-
             # Cursor is inside a quoted attribute
             # Now check if we are inside the class attribute
 
@@ -39,11 +38,13 @@ class VuetifyCompletions(sublime_plugin.EventListener):
                 return self.color_class_completions
             else:
                 return []
-        elif view.match_selector(locations[0], "text.html meta.tag - text.html punctuation.definition.tag.begin"):
-
-            # Cursor is in a tag, but not inside an attribute, i.e. <div {here}>
-            # This one is easy, just return completions for the v-* attributes
-            return self.attributes_completions
+        elif view.match_selector(locations[0], "text.html - source"):
+            pt = locations[0] - len(prefix) - 1
+            ch = view.substr(sublime.Region(pt, pt + 1))
+            if ch != '<':
+                return []
+            else:
+                return (components, sublime.INHIBIT_WORD_COMPLETIONS | sublime.INHIBIT_EXPLICIT_COMPLETIONS)
 
         else:
 

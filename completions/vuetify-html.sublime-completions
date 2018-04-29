@@ -1,6 +1,5 @@
 {
-  "scope":
-    "text.html meta.tag - text.html punctuation.definition.tag.begin",
+  "scope": "text.html - source",
 
   "completions": [
     {
@@ -127,7 +126,7 @@
       "contents": "$vuetify.goTo(${1:target}, ${2:options})"
     },
     {
-      "trigger": "vAlert\tv-alert component - Vueitfy",
+      "trigger": "vAlert\tv-alert component - Vuetify",
       "contents":
         "<v-alert type=\"${1:primary}\" :value=\"${2:true}\">\n\t$3\n</v-alert>$0"
     },
@@ -137,39 +136,39 @@
         "<v-alert\n  ${1:color=\"${2:primary}\"}\n  ${3:dismissible}\n  ${4:icon=\"${5:icon}\"}\n  ${6:mode=\"$7\"}\n  ${8:origin=\"$9\"}\n  ${10:outline}\n  ${11:transition=\"${12:fade-transition}\"}\n  ${13:type=\"$14\"}\n  ${15:value=\"$16\"}\n>\n  ${17:text}\n</v-alert>$0"
     },
     {
-      "trigger": "vAlertClosable\tv-alert cloaseble without icon - Vueitfy",
+      "trigger": "vAlertClosable\tv-alert cloaseble without icon - Vuetify",
       "contents":
         "<v-alert type=\"${1:primary}\" dismissible v-model=\"${2:value}\">\n\t$3\n</v-alert>$0"
     },
     {
-      "trigger": "vAlertClosableIcon\tv-alert closable with icon - Vueitfy",
+      "trigger": "vAlertClosableIcon\tv-alert closable with icon - Vuetify",
       "contents":
         "<v-alert color=\"${1:primary}\" icon=\"$2\" dismissible v-model=\"${2:true}\">\n\t${3:Alert text}\n</v-alert>$0"
     },
     {
-      "trigger": "vAlertIcon\tv-alert with icon - Vueitfy",
+      "trigger": "vAlertIcon\tv-alert with icon - Vuetify",
       "contents":
         "<v-alert color=\"${1:primary}\" icon=\"$2\" :value=\"${3:true}\">\n\t$4\n</v-alert>$0"
     },
     {
-      "trigger": "vAlertNoIcon\tv-alert with no icon - Vueitfy",
+      "trigger": "vAlertNoIcon\tv-alert with no icon - Vuetify",
       "contents":
         "<v-alert color=\"${1:primary}\" :value=\"${2:true}\">\n\t$3\n</v-alert>$0"
     },
     {
-      "trigger": "vAlertTransition\tv-alert with transition - Vueitfy",
+      "trigger": "vAlertTransition\tv-alert with transition - Vuetify",
       "contents":
         "<v-alert color=\"${1:primary}\" :value=\"${2:true}\"  transition=\"${3:fade-transition}\">\n\t$4\n</v-alert>$0"
     },
     {
-      "trigger": "vAlertOutline\tv-alert outlined - Vueitfy",
+      "trigger": "vAlertOutline\tv-alert outlined - Vuetify",
       "contents":
         "<v-alert outline color=\"${1:primary}\" icon=\"$2\" :value=\"${3:true}\">\n\t$4\n</v-alert>$0"
     },
     {
-      "trigger": "vAvatar\tv-avatar component - Vueitfy",
+      "trigger": "vAvatar\tv-avatar component - Vuetify",
       "contents":
-        "<v-avatar\n  size=\"${1:avatarSize}\"\n  class=\"${2:primary}\"\n>\n  <img src=\"${3:src}\" alt=\"${4:alt}\">\n</v-avatar>$0"
+        "<v-avatar\n  size=\"${1:avatarSize}\"\n  color=\"${2:primary}\"\n>\n  <img src=\"${3:src}\" alt=\"${4:alt}\">\n</v-avatar>$0"
     },
     {
       "trigger": "vAvatarWithProps\tv-avatar with all props - Vuetify",
@@ -179,17 +178,17 @@
     {
       "trigger": "vAvatarIcon\tv-avatar with an icon - Vuetify",
       "contents":
-        "<v-avatar class=\"${1:color=\"${2:primary}\">\n  <v-icon dark>${3:icon}</v-icon>\n</v-avatar>$0"
+        "<v-avatar color=\"${1:color=\"${2:primary}\">\n  <v-icon dark>${3:icon}</v-icon>\n</v-avatar>$0"
     },
     {
       "trigger": "vAvatarText\tv-avatar with text - Vuetify",
       "contents":
-        "<v-avatar class=\"${1:color=\"${2:primary}\">\n  <span class=\"${3:primary}--text headline\">${3:text}</span>\n</v-avatar>$0"
+        "<v-avatar color=\"${1:color=\"${2:primary}\">\n  <span class=\"${3:primary}--text headline\">${3:text}</span>\n</v-avatar>$0"
     },
     {
       "trigger": "vAvatarBadge\tv-avatar with a badge - Vuetify",
       "contents":
-        "<v-badge overlap>\n  <span slot=\"badge\">${1:badgeText}</span>\n  <v-avatar class=\"${2:primary} ${3:primary}--after\">\n    <v-icon dark>${4:icon}</v-icon>\n  </v-avatar>\n</v-badge>$0"
+        "<v-badge overlap>\n  <span slot=\"badge\">${1:badgeText}</span>\n  <v-avatar color=\"${2:primary} ${3:primary}--after\">\n    <v-icon dark>${4:icon}</v-icon>\n  </v-avatar>\n</v-badge>$0"
     },
     {
       "trigger": "vBadge\tv-badge component - Vuetify",
@@ -4752,7 +4751,7 @@
       "contents": "update:error=\"$1\"$0"
     },
     {
-      "trigger": "locale\tlocale - Vueitfy",
+      "trigger": "locale\tlocale - Vuetify",
       "contents": "locale=\"${1:en}\"$0"
     }
   ]

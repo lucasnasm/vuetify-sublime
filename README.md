@@ -23,6 +23,10 @@ For all information about available snippets and autocompletion for Sublime Text
 
 ## Usage
 
+#### Autocompletion
+
+Typing `<` will provide not with all available components and when you hit tab, the autompletion will work like a snippet.
+
 #### Snippet
 
 You don't need usage example if you are familiar with concept of snippets or you looked up the documentation. But here is an example:
