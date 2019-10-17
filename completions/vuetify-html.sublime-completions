@@ -163,7 +163,7 @@
     {
       "trigger": "vAlertOutline\tv-alert outlined - Vuetify",
       "contents":
-        "<v-alert outline color=\"${1:primary}\" icon=\"$2\" :value=\"${3:true}\">\n\t$4\n</v-alert>$0"
+        "<v-alert outlined color=\"${1:primary}\" icon=\"$2\" :value=\"${3:true}\">\n\t$4\n</v-alert>$0"
     },
     {
       "trigger": "vAvatar\tv-avatar component - Vuetify",
@@ -369,9 +369,9 @@
         "<v-btn\n  color=\"${1:primary}\"\n  :loading=\"${2:value}\"\n  @click.native=\"${3:click}\"\n  :disabled=\"${4:value}\"\n>\n  ${5:text}\n  <span slot=\"loader\" class=\"${6:custom-loader-class}\">\n    <v-icon light>${7:icon}</v-icon>\n  </span>\n</v-btn>$0"
     },
     {
-      "trigger": "vBtnOutline\tv-btn with outline prop - Vuetify",
+      "trigger": "vBtnOutlined\tv-btn with outlined prop - Vuetify",
       "contents":
-        "<v-btn outline ${1:color=\"${2:primary}\"} dark>${3:text}</v-btn>$0"
+        "<v-btn outlined ${1:color=\"${2:primary}\"} dark>${3:text}</v-btn>$0"
     },
     {
       "trigger": "vBtnRound\tv-btn with round prop - Vuetify",
@@ -529,7 +529,7 @@
     {
       "trigger": "vChipOutline\tv-chip outlined example - Vuetify",
       "contents":
-        "<v-chip outline color=\"${1:primary}\">\n  ${2:<v-icon left>${3:icon}</v-icon>}\n  ${4:text}\n</v-chip>$0"
+        "<v-chip outlined color=\"${1:primary}\">\n  ${2:<v-icon left>${3:icon}</v-icon>}\n  ${4:text}\n</v-chip>$0"
     },
     {
       "trigger": "vChipLabel\tv-chip label example - Vuetify",
